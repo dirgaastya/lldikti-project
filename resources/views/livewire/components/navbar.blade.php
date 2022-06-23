@@ -14,10 +14,10 @@
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Profil LLDIKTI 4</a>
+                            <a href="#" class="text-sm">Profil LLDIKTI 4</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Profil Kepala LLDIKTI 4</a>
+                            <a href="#" class="text-sm">Profil Kepala LLDIKTI 4</a>
                         </li>
                     </ul>
                 </div>
@@ -31,13 +31,13 @@
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Layanan Online</a>
+                            <a href="#" class="text-sm">Layanan Online</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Layanan Kami</a>
+                            <a href="#" class="text-sm">Layanan Kami</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Cara Pengajuan Layanan</a>
+                            <a href="#" class="text-sm">Cara Pengajuan Layanan</a>
                         </li>
                     </ul>
                 </div>
@@ -48,40 +48,40 @@
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Standar Pelayanan Publik</a>
+                            <a href="#" class="text-sm">Standar Pelayanan Publik</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Produk Hukum</a>
+                            <a href="#" class="text-sm">Produk Hukum</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">PPID</a>
+                            <a href="#" class="text-sm">PPID</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Prosedur Operasional Standar</a>
+                            <a href="#" class="text-sm">Prosedur Operasional Standar</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Peta Proses Bisnis LLDIKTI Wilayah IV</a>
+                            <a href="#" class="text-sm">Peta Proses Bisnis LLDIKTI Wilayah IV</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Buku Panduan / Pedoman</a>
+                            <a href="#" class="text-sm">Buku Panduan / Pedoman</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Materi Kegiatan</a>
+                            <a href="#" class="text-sm">Materi Kegiatan</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Buletin LLDIKTI Wilayah IV</a>
+                            <a href="#" class="text-sm">Buletin LLDIKTI Wilayah IV</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Buku Direktori PTS LLDIKTI IV</a>
+                            <a href="#" class="text-sm">Buku Direktori PTS LLDIKTI IV</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Buku Statistik Perguruan Tinggi</a>
+                            <a href="#" class="text-sm">Buku Statistik Perguruan Tinggi</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Agenda Kegiatan</a>
+                            <a href="#" class="text-sm">Agenda Kegiatan</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#">Galeri</a>
+                            <a href="#" class="text-sm">Galeri</a>
                         </li>
                     </ul>
                 </div>

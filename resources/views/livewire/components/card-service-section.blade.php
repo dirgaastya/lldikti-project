@@ -11,10 +11,12 @@
     </div>
 
     {{-- Card Container --}}
-    <div class="flex items-center justify-between space-x-4 py-6">
-        <livewire:components.service-card />
-        <livewire:components.service-card />
-        <livewire:components.service-card />
-        <livewire:components.service-card />
+    <div class="flex items-center justify-around space-x-4 py-6">
+        @foreach ($services as $service)
+        <livewire:components.service-card title='{{ $service }}' img='{{ $service }}' />
+        @endforeach
+    </div>
+    <div class="text-right my-6">
+        <a href="#" class="text-sm px-4 py-2 text-primary bg-white rounded-md hover:bg-primary hover:text-white transition ease-linear">Lihat Selengkapnya</a>
     </div>
 </div>

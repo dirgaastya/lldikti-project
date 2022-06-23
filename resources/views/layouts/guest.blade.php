@@ -26,8 +26,10 @@
 
 <body class="font-sans antialiased">
     <livewire:components.navbar />
-        {{ $slot }}
+    {{ $slot }}
     @livewireScripts
+    
+    <livewire:components.footer />
     @stack('scripts')
 </body>
 

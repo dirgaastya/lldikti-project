@@ -34,7 +34,7 @@
                 </li>
             </ul>
             <div>
-                <a href="#" class="text-sm px-4 py-2 text-white bg-gradient-to-r from-primary via-primary/80 to-primary/40 rounded-md hover:bg-primary transition ease-linear duration-300">Lihat Selengkapnya</a>
+                <a href="#" class="text-sm px-4 py-2 text-white bg-primary rounded-md hover:bg-primary/80 transition ease-linear duration-300">Lihat Selengkapnya</a>
             </div>
         </div>
     </div>
