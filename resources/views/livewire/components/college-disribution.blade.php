@@ -6,8 +6,8 @@
         
         <div class="px-2">
             {{-- Title --}}
-            <h3 class="text-center text-white text-4xl font-bold drop-shadow">Sebaran Perguruan Tinggi</h3>
-            <ul class="md:h-full grid place-items-center grid-cols-2 gap-x-2">
+            <h3 class="text-center text-white text-2xl lg:text-4xl font-bold drop-shadow mb-3">Sebaran Perguruan Tinggi</h3>
+            <ul class="md:h-full grid place-items-center grid-cols-2 gap-x-2 gap-y-3">
                 <li class="text-center">
                     <a href="#" class="text-3xl text-white font-bold drop-shadow">98</a>
                     <p class="text-tersier text-lg font-bold">Universitas</p>

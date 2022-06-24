@@ -1,6 +1,6 @@
-<div class="w-72 max-w-xs shadow rounded-lg overflow-hidden bg-white pt-8">
+<div class="flex justify-around lg:block w-72 max-w-xs shadow rounded-lg overflow-hidden bg-white py-4 lg:pb-0 pt-8">
     <div class="flex justify-center">
-    <img src="{{ asset('assets/img/'.$img.'.png') }}" alt="" width="120">
+    <img src="{{ asset('assets/img/'.$img.'.png') }}" alt="" width="120" class="w-16 lg:w-32">
     </div>
     {{-- Info Title --}}
     <div class="px-2 py-4 bg-white space-y-4">

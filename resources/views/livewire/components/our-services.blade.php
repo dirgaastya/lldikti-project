@@ -1,11 +1,11 @@
 <div class="max-w-7xl mx-auto p-6">
     {{-- Title --}}
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col lg:items-center">
         <h3 class="font-bold text-3xl md:text-4x">Layanan Kami</h3>
-        <div class="w-1/4 h-1 rounded bg-secondary/80 mt-3 mb-6"></div>
+        <div class="w-1/3 h-1 rounded bg-secondary/80 mt-3 mb-6"></div>
     </div>
     {{-- List --}}
-    <ul class="grid grid-cols-2 gap-y-4 gap-x-2">
+    <ul class="grid lg:grid-cols-2 gap-y-4 gap-x-2">
         @foreach($services as $service)
         <li class="flex items-center space-x-6 group px-4 py-2 rounded shadow-md">
             <i class="fa-solid fa-book-bookmark text-primary"></i>
