@@ -1,49 +1,49 @@
 <div class="z-50 w-full fixed">
     <nav
-        class="w-full px-5 lg:px-2  py-6 bg-white shadow-lg items-center border-b-[6px] border-primary">
+        class="w-full px-5 lg:px-2  py-6 bg-white shadow-lg items-center">
         <div class="flex justify-between lg:justify-around">
-            <div class="flex items-center">
+            <a href="{{ '/' }}" class="flex items-center">
                 <img src="https://i0.wp.com/www.lldikti4.or.id/wp-content/uploads/2021/09/LLDIKTI-LOGOrev1-1.png" width=200>
-            </div>
+            </a>
             {{-- left header section  --}}
             <div class="items-center hidden space-x-6 lg:flex">
                 {{-- Dropdown --}}
                 <div class="group relative">
-                    <a href="#" class="hover:text-secondary">Profil</a>
+                    <a href="{{ '/profil' }}" class="hover:text-secondary">Profil</a>
                     {{-- Dropdown List --}}
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Profil LLDIKTI 4</a>
+                            <a href="{{ '/profil/lldikti-wilayah-iv' }}" class="text-sm">Profil LLDIKTI 4</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Profil Kepala LLDIKTI 4</a>
+                            <a href="{{ '/profil/kepala-lldikti-wilayah-iv' }}" class="text-sm">Profil Kepala LLDIKTI 4</a>
                         </li>
                     </ul>
                 </div>
-                <a href="#" class="hover:text-secondary">Info</a>
-                <a href="#" class="hover:text-secondary">Akuntabilitas</a>
-                <a href="#" class="hover:text-secondary">Berita</a>
+                <a href="{{ '/info-lldikti-iv' }}" class="hover:text-secondary">Info</a>
+                <a href="{{ '/akuntabilitas-lldikti-iv' }}" class="hover:text-secondary">Akuntabilitas</a>
+                <a href="{{ '/berita' }}" class="hover:text-secondary">Berita</a>
                 {{-- Dropdown --}}
                 <div class="group relative">
-                    <a href="#" class="hover:text-secondary">Layanan</a>
+                    <a href="{{ '/layanan' }}" class="hover:text-secondary">Layanan</a>
                     {{-- Dropdown List --}}
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Layanan Online</a>
+                            <a href="{{ '/layanan-online' }}" class="text-sm">Layanan Online</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Layanan Kami</a>
+                            <a href="{{ '/layanan-kami' }}" class="text-sm">Layanan Kami</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Cara Pengajuan Layanan</a>
+                            <a href="{{ '/cara-pengajuan-layanan' }}" class="text-sm">Cara Pengajuan Layanan</a>
                         </li>
                     </ul>
                 </div>
                 {{-- Dropdown --}}
                 <div class="group relative">
-                    <a href="#" class="hover:text-secondary">Informasi Publik</a>
+                    <a href="{{ '/informasi' }}" class="hover:text-secondary">Informasi Publik</a>
                     {{-- Dropdown List --}}
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">

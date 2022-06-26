@@ -27,9 +27,9 @@
 <body class="font-sans antialiased">
     <livewire:components.navbar />
     {{ $slot }}
-    @livewireScripts
-    
+    <livewire:components.email-subs />
     <livewire:components.footer />
+    @livewireScripts
     @stack('scripts')
 </body>
 

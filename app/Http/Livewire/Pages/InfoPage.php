@@ -4,10 +4,10 @@ namespace App\Http\Livewire\Pages;
 
 use Livewire\Component;
 
-class Home extends Component
-{   
+class InfoPage extends Component
+{
     public function render()
     {
-        return view('livewire.pages.home',['pagetitle' => 'Beranda']);
+        return view('livewire.pages.info-page');
     }
 }

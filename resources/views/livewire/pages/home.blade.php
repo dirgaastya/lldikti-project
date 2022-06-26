@@ -10,5 +10,4 @@
     <livewire:components.video-gallery />
     <livewire:components.faq-section />
     <livewire:components.testimoni-section />
-    <livewire:components.email-subs />
 </x-guest-layout>

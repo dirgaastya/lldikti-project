@@ -1,36 +1,36 @@
 <div class="hidden w-full" id="menu-mobile">
     <ul class="
-        text-base text-gray-700 pt-4 md:flex md:justify-between md:pt-0 divide-y">
+        text-base text-gray-700 pt-4 md:flex md:justify-between md:pt-0 divide-y md:divide-y-0">
         <li>
             {{-- Dropdown --}}
             <div class="w-full group">
                 <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                    <a href="#" class="py-2 hover:text-secondary">Profil</a>
+                    <a href="{{ '/profil' }}" class="py-2 hover:text-secondary">Profil</a>
                 </div>
                 {{-- Dropdown List --}}
                 <ul class="hidden bg-white group-hover:block">
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Profil LLDIKTI 4</a>
+                        <a href="{{ '/profil/lldikti-wilayah-iv' }}">Profil LLDIKTI 4</a>
                     </li>
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Profil Kepala LLDIKTI 4</a>
+                        <a href="{{ '/profil/kepala-lldikti-wilayah-iv' }}">Profil Kepala LLDIKTI 4</a>
                     </li>
                 </ul>
             </div>
         </li>
         <li>
             <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                <a href="#" class="hover:text-secondary">Info</a>
+                <a href="{{ '/info-lldikti-iv' }}" class="hover:text-secondary">Info</a>
             </div>
         </li>
         <li>
             <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                <a href="#" class="hover:text-secondary">Akuntabilitas</a>
+                <a href="{{ '/akuntabilitas-lldikti-iv' }}" class="hover:text-secondary">Akuntabilitas</a>
             </div>
         </li>
         <li>
             <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                <a href="#" class="hover:text-secondary">Berita</a>
+                <a href="{{ '/layanan' }}" class="hover:text-secondary">Berita</a>
             </div>
         </li>
         <li>
@@ -42,13 +42,13 @@
                 {{-- Dropdown List --}}
                 <ul class="hidden bg-white group-hover:block">
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Layanan Online</a>
+                        <a href="{{ '/layanan-online' }}">Layanan Online</a>
                     </li>
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Layanan Kami</a>
+                        <a href="{{ '/layanan-kami' }}}">Layanan Kami</a>
                     </li>
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Cara Pengajuan Layanan</a>
+                        <a href="{{ '/cara-pengajuan-layanan' }}">Cara Pengajuan Layanan</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +57,7 @@
             {{-- Dropdown --}}
             <div class="w-full group">
                 <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                    <a href="#" class="py-2 hover:text-secondary">Informasi Publik</a>
+                    <a href="{{ '/informasi' }}" class="py-2 hover:text-secondary">Informasi Publik</a>
                 </div>
                 {{-- Dropdown List --}}
                 <ul class="hidden bg-white group-hover:block">
