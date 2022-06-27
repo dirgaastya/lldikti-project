@@ -27,6 +27,9 @@ Route::get('/profil/kepala-lldikti-wilayah-iv', function () {
 Route::get('/layanan', function () {
     return view('livewire.pages.services',['pagetitle' => 'Layanan']);
 });
+Route::get('/layanan-kami', function () {
+    return view('livewire.pages.services.our-services-page',['pagetitle' => 'Layanan Kami']);
+});
 Route::get('/info-lldikti-iv', function () {
     return view('livewire.pages.info-page',['pagetitle' => 'Info']);
 });
