@@ -18,6 +18,12 @@ Route::get('/', function () {
 Route::get('/profil', function () {
     return view('livewire.pages.profile',['pagetitle' => 'Profil']);
 });
+Route::get('/profil/lldikti-wilayah-iv', function () {
+    return view('livewire.pages.profile.lldikti-profil',['pagetitle' => 'Profil']);
+});
+Route::get('/profil/kepala-lldikti-wilayah-iv', function () {
+    return view('livewire.pages.profile.head-lldikti-profile',['pagetitle' => 'Profil Kepala']);
+});
 Route::get('/layanan', function () {
     return view('livewire.pages.services',['pagetitle' => 'Layanan']);
 });
