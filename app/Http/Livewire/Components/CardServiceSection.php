@@ -6,7 +6,11 @@ use Livewire\Component;
 
 class CardServiceSection extends Component
 {
-    public $services = ['SPTJM','Digilibrary','Jurnal LLDIKTI','Buletin LLDIKTI'];
+    public $services = [
+        'SPTJM',
+        'Digilibrary',
+        'Jurnal LLDIKTI',
+        'Buletin LLDIKTI'];
 
     public function render()
     {

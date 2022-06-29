@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Dashboard\NewsPostPage;
 use App\Http\Livewire\Dashboard\PostInfoPage;
+use App\Http\Livewire\Pages\Services\OnlineServicesPage;
+use App\Http\Livewire\Pages\Services\SubmissionPage;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +20,7 @@ use App\Http\Livewire\Dashboard\PostInfoPage;
 Route::get('/', function () {
     return view('livewire.pages.home',['pagetitle' => 'Beranda']);
 });
+// Profile
 Route::get('/profil', function () {
     return view('livewire.pages.profile',['pagetitle' => 'Profil']);
 });
@@ -26,25 +30,39 @@ Route::get('/profil/lldikti-wilayah-iv', function () {
 Route::get('/profil/kepala-lldikti-wilayah-iv', function () {
     return view('livewire.pages.profile.head-lldikti-profile',['pagetitle' => 'Profil Kepala']);
 });
+
+// Services
 Route::get('/layanan', function () {
     return view('livewire.pages.services',['pagetitle' => 'Layanan']);
 });
 Route::get('/layanan-kami', function () {
     return view('livewire.pages.services.our-services-page',['pagetitle' => 'Layanan Kami']);
 });
+Route::get('/layanan-online', OnlineServicesPage::class)->name('layanan-online');
+
+Route::get('/cara-pengajuan-layanan', SubmissionPage::class)->name('pengajuan-layanan');
+
+// Info
 Route::get('/info-lldikti-iv', function () {
     return view('livewire.pages.info-page',['pagetitle' => 'Info']);
 });
+
+// Accountability
 Route::get('/akuntabilitas-lldikti-iv', function () {
     return view('livewire.pages.accountability-page',['pagetitle' => 'Akuntabilitas']);
 });
+
+// News
 Route::get('/berita', function () {
     return view('livewire.pages.news-page',['pagetitle' => 'Berita']);
 });
+
+// Information
 Route::get('/informasi', function () {
     return view('livewire.pages.information-page',['pagetitle' => 'Informasi Publik']);
 });
 
+// Dashboard
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
