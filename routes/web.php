@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Dashboard\NewsPostPage;
+use App\Http\Livewire\Dashboard\PostInfoPage;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,6 +50,8 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified'
 ])->group(function () {
+    Route::get('/posts-info', PostInfoPage::class)->name('post-info');
+    Route::get('/posts-news', NewsPostPage::class)->name('news-info');
     Route::get('/dashboard', function () {
         return view('dashboard',['pagetitle' => 'Dashboard']);
     })->name('dashboard');

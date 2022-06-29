@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <x-jet-application-mark class="block h-9 w-auto" />
+                        <img src="https://i0.wp.com/www.lldikti4.or.id/wp-content/uploads/2021/09/LLDIKTI-LOGOrev1-1.png" width=200>
                     </a>
                 </div>
 
@@ -15,6 +15,16 @@
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('post-info') }}" :active="request()->routeIs('post-info')">
+                        Info
+                </x-jet-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('news-info') }}" :active="request()->routeIs('news-info')">
+                        Berita
+                </x-jet-nav-link>
                 </div>
             </div>
 
@@ -140,6 +150,16 @@
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-jet-responsive-nav-link>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <x-jet-responsive-nav-link href="{{ route('post-info') }}" :active="request()->routeIs('post-info')">
+                Info
+         </x-jet-responsive-nav-link>
+        </div>
+        <div class="pt-2 pb-3 space-y-1">
+            <x-jet-responsive-nav-link href="{{ route('news-info') }}" :active="request()->routeIs('news-info')">
+                Berita
+         </x-jet-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
