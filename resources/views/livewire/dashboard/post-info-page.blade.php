@@ -21,7 +21,7 @@
                     @endif
                     <button wire:click="create()" class="bg-primary text-white font-bold py-2 px-4 rounded my-3">Tambahkan Postingan</button>
                     @if($isModalOpen)
-                    @include('livewire.create')
+                        @include('livewire.components.dashboard.info-page.create')
                     @endif
                     <table class="table-fixed w-full">
                         <thead>
