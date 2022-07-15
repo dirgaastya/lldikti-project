@@ -3219,6 +3219,12 @@ select {
 .w-72 {
   width: 18rem;
 }
+.w-96 {
+  width: 24rem;
+}
+.w-2\/3 {
+  width: 66.666667%;
+}
 .w-\[640px\] {
   width: 640px;
 }
@@ -3230,9 +3236,6 @@ select {
 }
 .w-56 {
   width: 14rem;
-}
-.w-2\/3 {
-  width: 66.666667%;
 }
 .w-3\/5 {
   width: 60%;
@@ -3248,6 +3251,9 @@ select {
 }
 .w-2\/5 {
   width: 40%;
+}
+.w-\[98rem\] {
+  width: 98rem;
 }
 .min-w-0 {
   min-width: 0px;
@@ -3382,9 +3388,6 @@ select {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
 .flex-row {
   flex-direction: row;
 }
@@ -3432,6 +3435,9 @@ select {
 }
 .gap-8 {
   gap: 2rem;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .gap-y-4 {
   row-gap: 1rem;
@@ -3757,6 +3763,10 @@ select {
 .bg-primary\/80 {
   background-color: rgb(38 87 167 / 0.8);
 }
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 185 76 / var(--tw-bg-opacity));
+}
 .bg-tersier {
   --tw-bg-opacity: 1;
   background-color: rgb(29 63 112 / var(--tw-bg-opacity));
@@ -3767,10 +3777,6 @@ select {
 .bg-slate-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 185 76 / var(--tw-bg-opacity));
 }
 .bg-slate-700 {
   --tw-bg-opacity: 1;
@@ -5495,6 +5501,14 @@ select {
     grid-column: span 4 / span 4;
   }
 
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .lg\:float-right {
     float: right;
   }
@@ -5517,6 +5531,10 @@ select {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
   }
 
   .lg\:hidden {
@@ -5559,6 +5577,10 @@ select {
     width: 66.666667%;
   }
 
+  .lg\:max-w-\[98rem\] {
+    max-width: 98rem;
+  }
+
   .lg\:flex-none {
     flex: none;
   }
@@ -5577,6 +5599,10 @@ select {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -5607,6 +5633,10 @@ select {
     justify-content: space-around;
   }
 
+  .lg\:gap-6 {
+    gap: 1.5rem;
+  }
+
   .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -5627,6 +5657,10 @@ select {
 
   .lg\:border-b-2 {
     border-bottom-width: 2px;
+  }
+
+  .lg\:p-6 {
+    padding: 1.5rem;
   }
 
   .lg\:px-8 {
@@ -5684,6 +5718,11 @@ select {
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .lg\:transition-colors {

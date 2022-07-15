@@ -1,4 +1,4 @@
-<div class="max-w-7xl mx-auto p-6">
+<div class="max-w-7xl mx-auto p-3 lg:p-6">
     <div class="flex flex-col lg:flex-row items-center w-3/4 mx-auto bg-secondary/80 rounded-lg p-8">
         <div class="py-4">
             <h3 class="text-white text-md lg:text-2xl font-bold drop-shadow">Lebih Dekat Dengan Kami Dengan Berlangganan Kabar

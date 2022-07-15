@@ -1,4 +1,4 @@
-<div class="max-w-[98rem] mx-auto py-6">
+<div class="max-w-[98rem] mx-auto p-6">
     {{-- Title --}}
     <div class="flex flex-col md:items-center">
         <h3 class="font-bold text-3xl md:text-4x">Berita Kami</h3>
@@ -7,7 +7,7 @@
 <div class="w-full p-6 ">
     
     {{-- Card Container --}}
-    <div class="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-4 py-6">
+    <div class="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-4 p-6">
         {{-- Side Left --}}
         <div class="lg:w-1/2 rounded-lg overflow-hidden bg-white shadow-md">
             <div class="w-full">

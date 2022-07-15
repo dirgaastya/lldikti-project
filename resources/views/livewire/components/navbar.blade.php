@@ -85,7 +85,9 @@
                         </li>
                     </ul>
                 </div>
-                <livewire:components.search-btn/>
+                <button>
+                    <livewire:components.search-btn/>
+                </button>
             </div>
             <!-- right header section -->
             <div class="flex items-center space-x-2">
