@@ -62,6 +62,8 @@ Route::get('/informasi', function () {
     return view('livewire.pages.information-page',['pagetitle' => 'Informasi Publik']);
 });
 
+// 
+
 // Dashboard
 Route::middleware([
     'auth:sanctum',
