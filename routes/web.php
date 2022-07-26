@@ -1,10 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Pages\PublicInfo\Laws;
 use App\Http\Livewire\Dashboard\NewsPostPage;
 use App\Http\Livewire\Dashboard\PostInfoPage;
-use App\Http\Livewire\Pages\Services\OnlineServicesPage;
 use App\Http\Livewire\Pages\Services\SubmissionPage;
+use App\Http\Livewire\Pages\Services\OnlineServicesPage;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,9 +59,13 @@ Route::get('/berita', function () {
 });
 
 // Information
-Route::get('/informasi', function () {
+Route::get('/informasi-publik', function () {
     return view('livewire.pages.information-page',['pagetitle' => 'Informasi Publik']);
 });
+Route::get('/standar-publik-pelayanan', function () {
+    return view('livewire.pages.public-info.spp-lldikti',['pagetitle' => 'Standar Pelayanan Publik']);
+});
+Route::get('/produk-hukum', Laws::class)->name('produk-hukum');
 
 // 
 

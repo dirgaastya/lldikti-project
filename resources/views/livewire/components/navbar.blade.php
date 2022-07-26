@@ -43,7 +43,7 @@
                 </div>
                 {{-- Dropdown --}}
                 <div class="group relative">
-                    <a href="{{ '/informasi' }}" class="hover:text-secondary">Informasi Publik</a>
+                    <a href="{{ '/informasi-publik' }}" class="hover:text-secondary">Informasi Publik</a>
                     {{-- Dropdown List --}}
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">

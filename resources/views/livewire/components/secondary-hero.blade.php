@@ -1,7 +1,7 @@
 <div class="max-w-[98rem] pt-20 pb-6 mx-auto">
     <div class="w-full md:flex py-16 px-4 bg-gradient-to-r from-primary/80 via-blue-300 to-blue-100">
         {{-- Tag Line --}}
-        <div class="px-6 py-8 flex flex-col justify-center">
+        <div class="px-3 py-4 md:px-6 md:py-8 flex flex-col justify-center">
             <h3 class="text-white drop-shadow text-xl lg:text-3xl font-semibold">LEMBAGA LAYANAN PENDIDIKAN TINGGI
                 WILAYAH 4
             </h3>
