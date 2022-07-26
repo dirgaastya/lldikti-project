@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'heroku'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -35,15 +35,12 @@ return [
 
     'connections' => [
 
-        'heroku' => [
-            'driver' => 'pgsql',
-            'host' => parse_url(getenv("DATABASE_URL"))["host"],
-            'database' => substr(parse_url(getenv("DATABASE_URL"))["path"],1),
-            'username' => parse_url(getenv("DATABASE_URL"))["user"],
-            'password' => parse_url(getenv("DATABASE_URL"))["pass"],
-            'charset' => 'utf8',
+        'sqlite' => [
+            'driver' => 'sqlite',
+            'url' => env('DATABASE_URL'),
+            'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
-            'schema' => 'public',
+            'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
 
         'mysql' => [
