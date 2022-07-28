@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Pages\PublicInfo\Laws;
 use App\Http\Livewire\Dashboard\NewsPostPage;
 use App\Http\Livewire\Dashboard\PostInfoPage;
+use App\Http\Livewire\Pages\PublicInfo\BukuPedoman;
+use App\Http\Livewire\Pages\PublicInfo\PpidPages;
+use App\Http\Livewire\Pages\PublicInfo\ProsedurStandar;
 use App\Http\Livewire\Pages\Services\SubmissionPage;
 use App\Http\Livewire\Pages\Services\OnlineServicesPage;
 
@@ -66,6 +69,9 @@ Route::get('/standar-publik-pelayanan', function () {
     return view('livewire.pages.public-info.spp-lldikti',['pagetitle' => 'Standar Pelayanan Publik']);
 });
 Route::get('/produk-hukum', Laws::class)->name('produk-hukum');
+Route::get('/ppid', PpidPages::class)->name('ppid');
+Route::get('/prosedur-standar-operasional', ProsedurStandar::class)->name('pso');
+Route::get('/buku-pedoman', BukuPedoman::class)->name('bp');
 
 // 
 

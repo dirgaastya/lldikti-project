@@ -30,14 +30,14 @@
         </li>
         <li>
             <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                <a href="{{ '/layanan' }}" class="hover:text-secondary">Berita</a>
+                <a href="{{ '/berita' }}" class="hover:text-secondary">Berita</a>
             </div>
         </li>
         <li>
             {{-- Dropdown --}}
             <div class="w-full group">
                 <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                    <a href="#" class="py-2 hover:text-secondary">Layanan</a>
+                    <a href="{{ '/layanan' }}" class="py-2 hover:text-secondary">Layanan</a>
                 </div>
                 {{-- Dropdown List --}}
                 <ul class="hidden bg-white group-hover:block">
@@ -57,21 +57,21 @@
             {{-- Dropdown --}}
             <div class="w-full group">
                 <div class="w-full px-1 py-2 hover:bg-gray-200 hover:bg-opacity-20">
-                    <a href="{{ '/informasi' }}" class="py-2 hover:text-secondary">Informasi Publik</a>
+                    <a href="{{ '/informasi-publik' }}" class="py-2 hover:text-secondary">Informasi Publik</a>
                 </div>
                 {{-- Dropdown List --}}
                 <ul class="hidden bg-white group-hover:block">
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Standar Pelayanan Publik</a>
+                        <a href="{{ '/standar-publik-pelayanan' }}">Standar Pelayanan Publik</a>
                     </li>
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Produk Hukum</a>
+                        <a href="{{ '/produk-hukum' }}">Produk Hukum</a>
                     </li>
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">PPID</a>
+                        <a href="{{ '/ppid' }}">PPID</a>
                     </li>
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
-                        <a href="#">Prosedur Operasional Standar</a>
+                    <a href="{{ '/prosedur-standar-operasional' }}">Prosedur Operasional Standar</a>
                     </li>
                     <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:text-secondary">
                         <a href="#">Peta Proses Bisnis LLDIKTI Wilayah IV</a>

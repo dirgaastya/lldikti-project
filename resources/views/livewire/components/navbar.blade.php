@@ -48,10 +48,10 @@
                     <ul
                         class="hidden bg-white rounded shadow top-6 w-56 absolute group-hover:block  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80">
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Standar Pelayanan Publik</a>
+                            <a href="{{ '/standar-publik-pelayanan' }}" class="text-sm">Standar Pelayanan Publik</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Produk Hukum</a>
+                            <a href="{{ '/produk-hukum' }}" class="text-sm">Produk Hukum</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
                             <a href="#" class="text-sm">PPID</a>
