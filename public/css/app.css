@@ -2914,21 +2914,21 @@ select {
   margin-left: auto;
   margin-right: auto;
 }
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-}
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 .my-auto {
   margin-top: auto;
@@ -3465,6 +3465,11 @@ select {
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -3479,11 +3484,6 @@ select {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -3860,14 +3860,14 @@ select {
 .p-6 {
   padding: 1.5rem;
 }
+.p-3 {
+  padding: 0.75rem;
+}
 .p-8 {
   padding: 2rem;
 }
 .p-5 {
   padding: 1.25rem;
-}
-.p-3 {
-  padding: 0.75rem;
 }
 .p-0 {
   padding: 0px;
@@ -4202,13 +4202,20 @@ select {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
 }
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(38 87 167 / var(--tw-text-opacity));
+}
+.text-primary\/70 {
+  color: rgb(38 87 167 / 0.7);
+}
 .text-teal-900 {
   --tw-text-opacity: 1;
   color: rgb(19 78 74 / var(--tw-text-opacity));
 }
-.text-primary {
+.text-tersier {
   --tw-text-opacity: 1;
-  color: rgb(38 87 167 / var(--tw-text-opacity));
+  color: rgb(29 63 112 / var(--tw-text-opacity));
 }
 .text-secondary {
   --tw-text-opacity: 1;
@@ -4217,10 +4224,6 @@ select {
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
-}
-.text-tersier {
-  --tw-text-opacity: 1;
-  color: rgb(29 63 112 / var(--tw-text-opacity));
 }
 .text-gray-200 {
   --tw-text-opacity: 1;
@@ -4264,9 +4267,6 @@ select {
 .text-neutral-900 {
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity));
-}
-.text-primary\/70 {
-  color: rgb(38 87 167 / 0.7);
 }
 .underline {
   -webkit-text-decoration-line: underline;
@@ -4827,6 +4827,11 @@ select {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.hover\:text-tersier:hover {
+  --tw-text-opacity: 1;
+  color: rgb(29 63 112 / var(--tw-text-opacity));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -4849,11 +4854,6 @@ select {
 .hover\:text-slate-700:hover {
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
-.hover\:text-tersier:hover {
-  --tw-text-opacity: 1;
-  color: rgb(29 63 112 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-75:hover {
@@ -5506,9 +5506,9 @@ select {
     text-align: left;
   }
 
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-xl {
@@ -5516,9 +5516,9 @@ select {
     line-height: 1.75rem;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -5725,6 +5725,11 @@ select {
     text-align: center;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -5743,11 +5748,6 @@ select {
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .lg\:text-lg {

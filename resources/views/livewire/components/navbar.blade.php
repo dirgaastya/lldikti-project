@@ -54,16 +54,16 @@
                             <a href="{{ '/produk-hukum' }}" class="text-sm">Produk Hukum</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">PPID</a>
+                            <a href="{{ '/ppid' }}" class="text-sm">PPID</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Prosedur Operasional Standar</a>
+                            <a href="{{ '/prosedur-standar-operasional' }}" class="text-sm">Prosedur Operasional Standar</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Peta Proses Bisnis LLDIKTI Wilayah IV</a>
+                        <a href="{{ '' }}" class="text-sm">Peta Proses Bisnis LLDIKTI Wilayah IV</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
-                            <a href="#" class="text-sm">Buku Panduan / Pedoman</a>
+                            <a href="{{ '/buku-pedoman' }}" class="text-sm">Buku Panduan / Pedoman</a>
                         </li>
                         <li class="px-4 py-2 hover:bg-gray-200 hover:bg-opacity-20 hover:font-bold hover:text-secondary">
                             <a href="#" class="text-sm">Materi Kegiatan</a>

@@ -180,7 +180,7 @@
                                     <p>Perubahan Data Mahasiwa</p>
                                 </li>
                                 <li>
-                                    <p>Pembukaan Perbaikan Semesteran/p>
+                                    <p>Pembukaan Perbaikan Semesteran</p>
                                 </li>
                             </ul>
                         </li>
